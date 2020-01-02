@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:6:{s:92:"F:\phpstudy\PHPTutorial\WWW\wechatOfficial\public/../application/agent\view\index\index.html";i:1576638344;s:82:"F:\phpstudy\PHPTutorial\WWW\wechatOfficial\application\agent\view\common\meta.html";i:1576638344;s:84:"F:\phpstudy\PHPTutorial\WWW\wechatOfficial\application\agent\view\common\header.html";i:1577861774;s:82:"F:\phpstudy\PHPTutorial\WWW\wechatOfficial\application\agent\view\common\menu.html";i:1577861795;s:85:"F:\phpstudy\PHPTutorial\WWW\wechatOfficial\application\agent\view\common\control.html";i:1576638344;s:84:"F:\phpstudy\PHPTutorial\WWW\wechatOfficial\application\agent\view\common\script.html";i:1576638344;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:6:{s:92:"F:\phpstudy\PHPTutorial\WWW\wechatOfficial\public/../application/agent\view\index\index.html";i:1576638344;s:82:"F:\phpstudy\PHPTutorial\WWW\wechatOfficial\application\agent\view\common\meta.html";i:1576638344;s:84:"F:\phpstudy\PHPTutorial\WWW\wechatOfficial\application\agent\view\common\header.html";i:1577959434;s:82:"F:\phpstudy\PHPTutorial\WWW\wechatOfficial\application\agent\view\common\menu.html";i:1577961236;s:85:"F:\phpstudy\PHPTutorial\WWW\wechatOfficial\application\agent\view\common\control.html";i:1576638344;s:84:"F:\phpstudy\PHPTutorial\WWW\wechatOfficial\application\agent\view\common\script.html";i:1576638344;}*/ ?>
 <!DOCTYPE html>
 <html lang="<?php echo $config['language']; ?>">
     <head>
@@ -59,11 +59,11 @@
                 </li>
 
                 <!-- 账号信息下拉框 -->
-                <li class="hidden-xs">
+              <!--  <li class="hidden-xs">
                     <a href="javascript:;" data-toggle="checkupdate" title="<?php echo __('Check for updates'); ?>">
                         <i class="fa fa-refresh"></i>
                     </a>
-                </li>
+                </li>-->
 
                 <!-- 清除缓存 -->
                 <li>
@@ -80,7 +80,7 @@
                 </li>
 
                 <!-- 多语言列表 -->
-                <?php if(\think\Config::get('lang_switch_on')): ?>
+                <!--<?php if(\think\Config::get('lang_switch_on')): ?>
                 <li class="hidden-xs">
                     <a href="javascript:;" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-language"></i></a>
                     <ul class="dropdown-menu">
@@ -92,7 +92,7 @@
                         </li>
                     </ul>
                 </li>
-                <?php endif; ?>
+                <?php endif; ?>-->
 
                 <!-- 全屏按钮 -->
                 <li class="hidden-xs">
@@ -116,7 +116,7 @@
                             </p>
                         </li>
                         <!-- Menu Body -->
-                        <li class="user-body">
+                        <!--<li class="user-body">
                             <div class="row">
                                 <div class="col-xs-4 text-center">
                                     <a href="https://www.fastadmin.net" target="_blank"><?php echo __('FastAdmin'); ?></a>
@@ -128,7 +128,7 @@
                                     <a href="https://doc.fastadmin.net" target="_blank"><?php echo __('Docs'); ?></a>
                                 </div>
                             </div>
-                        </li>
+                        </li>-->
                         <!-- Menu Footer-->
                         <li class="user-footer">
                             <div class="pull-left">
@@ -182,7 +182,7 @@
     </div>
 
     <!-- 菜单搜索 -->
-    <form action="" method="get" class="sidebar-form" onsubmit="return false;">
+    <!--<form action="" method="get" class="sidebar-form" onsubmit="return false;">
         <div class="input-group">
             <input type="text" name="q" class="form-control" placeholder="<?php echo __('Search menu'); ?>">
             <span class="input-group-btn">
@@ -192,7 +192,7 @@
             <div class="menuresult list-group sidebar-form hide">
             </div>
         </div>
-    </form>
+    </form>-->
 
     <!-- 移动端一级菜单 -->
     <div class="mobilenav visible-xs">
@@ -206,10 +206,10 @@
         <?php echo $menulist; ?>
 
         <!--以下4行可以删除或改成自己的链接,但建议你在你的网站上添加一个FastAdmin的链接-->
-        <li class="header" data-rel="external"><?php echo __('Links'); ?></li>
+        <!--<li class="header" data-rel="external"><?php echo __('Links'); ?></li>
         <li data-rel="external"><a href="https://doc.fastadmin.net" target="_blank"><i class="fa fa-list text-red"></i> <span><?php echo __('Docs'); ?></span></a></li>
         <li data-rel="external"><a href="https://forum.fastadmin.net" target="_blank"><i class="fa fa-comment text-yellow"></i> <span><?php echo __('Forum'); ?></span></a></li>
-        <li data-rel="external"><a href="https://jq.qq.com/?_wv=1027&k=487PNBb" target="_blank"><i class="fa fa-qq text-aqua"></i> <span><?php echo __('QQ qun'); ?></span></a></li>
+        <li data-rel="external"><a href="https://jq.qq.com/?_wv=1027&k=487PNBb" target="_blank"><i class="fa fa-qq text-aqua"></i> <span><?php echo __('QQ qun'); ?></span></a></li>-->
     </ul>
 </section>
 

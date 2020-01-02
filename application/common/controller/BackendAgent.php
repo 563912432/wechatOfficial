@@ -223,6 +223,7 @@ class BackendAgent extends Controller
         //渲染权限对象
         $this->assign('auth', $this->auth);
         //渲染管理员对象
+//      print_r(Session::get('agent'));exit;
         $this->assign('agent', Session::get('agent'));
     }
 

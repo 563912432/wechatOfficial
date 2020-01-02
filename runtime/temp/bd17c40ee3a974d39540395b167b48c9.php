@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:4:{s:102:"F:\phpstudy\PHPTutorial\WWW\wechatOfficial\public/../application/agent\view\general\profile\index.html";i:1577865330;s:85:"F:\phpstudy\PHPTutorial\WWW\wechatOfficial\application\agent\view\layout\default.html";i:1577865801;s:82:"F:\phpstudy\PHPTutorial\WWW\wechatOfficial\application\agent\view\common\meta.html";i:1576638344;s:84:"F:\phpstudy\PHPTutorial\WWW\wechatOfficial\application\agent\view\common\script.html";i:1576638344;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:4:{s:102:"F:\phpstudy\PHPTutorial\WWW\wechatOfficial\public/../application/agent\view\general\profile\index.html";i:1577960628;s:85:"F:\phpstudy\PHPTutorial\WWW\wechatOfficial\application\agent\view\layout\default.html";i:1577865801;s:82:"F:\phpstudy\PHPTutorial\WWW\wechatOfficial\application\agent\view\common\meta.html";i:1576638344;s:84:"F:\phpstudy\PHPTutorial\WWW\wechatOfficial\application\agent\view\common\script.html";i:1576638344;}*/ ?>
 <!DOCTYPE html>
 <html lang="<?php echo $config['language']; ?>">
     <head>
@@ -101,7 +101,6 @@
                     <?php echo token(); ?>
                     <input type="hidden" id="c-avatar" name="row[avatar]" value="<?php echo htmlentities($agent['avatar']); ?>"/>
                     <div class="box-body box-profile">
-
                         <div class="profile-avatar-container">
                             <img class="profile-user-img img-responsive img-circle plupload" src="<?php echo htmlentities(cdnurl($agent['avatar'])); ?>" alt="">
                             <div class="profile-avatar-text img-circle"><?php echo __('Click to edit'); ?></div>

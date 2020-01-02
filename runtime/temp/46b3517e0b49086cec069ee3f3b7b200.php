@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:4:{s:96:"F:\phpstudy\PHPTutorial\WWW\wechatOfficial\public/../application/agent\view\dashboard\index.html";i:1577926433;s:85:"F:\phpstudy\PHPTutorial\WWW\wechatOfficial\application\agent\view\layout\default.html";i:1577865801;s:82:"F:\phpstudy\PHPTutorial\WWW\wechatOfficial\application\agent\view\common\meta.html";i:1576638344;s:84:"F:\phpstudy\PHPTutorial\WWW\wechatOfficial\application\agent\view\common\script.html";i:1576638344;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:4:{s:96:"F:\phpstudy\PHPTutorial\WWW\wechatOfficial\public/../application/agent\view\dashboard\index.html";i:1577959608;s:85:"F:\phpstudy\PHPTutorial\WWW\wechatOfficial\application\agent\view\layout\default.html";i:1577865801;s:82:"F:\phpstudy\PHPTutorial\WWW\wechatOfficial\application\agent\view\common\meta.html";i:1576638344;s:84:"F:\phpstudy\PHPTutorial\WWW\wechatOfficial\application\agent\view\common\script.html";i:1576638344;}*/ ?>
 <!DOCTYPE html>
 <html lang="<?php echo $config['language']; ?>">
     <head>
@@ -253,7 +253,7 @@
                     </div>
                 </div>
 
-                <div class="row">
+                <div class="row" style="margin-top: 30px">
                     <div class="col-lg-8">
                         <div id="echart" class="btn-refresh" style="height:200px;width:100%;"></div>
                     </div>
@@ -327,7 +327,7 @@
                     </div>
                 </div>
 
-                <div class="row" style="margin-top:15px;">
+                <div class="row" style="margin-top:50px;">
 
                     <div class="col-lg-12">
                     </div>
@@ -418,7 +418,7 @@
                     </div>
                 </div>
 
-                <div class="row">
+                <!--<div class="row">
                     <div class="col-lg-4">
                         <div class="box box-danger">
                             <div class="box-header with-border">
@@ -429,7 +429,7 @@
                             </div>
                             <div class="box-body">
                                 <ul class="products-list product-list-in-box">
-                                    <?php $__FOR_START_234266248__=1;$__FOR_END_234266248__=8;for($i=$__FOR_START_234266248__;$i < $__FOR_END_234266248__;$i+=1){ ?>
+                                    <?php $__FOR_START_336119597__=1;$__FOR_END_336119597__=8;for($i=$__FOR_START_336119597__;$i < $__FOR_END_336119597__;$i+=1){ ?>
                                     <li class="item">
                                         <div class="product-img">
                                             <img src="/assets/img/avatar.png" style="height:40px;width:40px;">
@@ -533,7 +533,7 @@
                             </div>
                         </div>
                     </div>
-                </div>
+                </div>-->
             </div>
             <div class="tab-pane fade" id="two">
                 <div class="row">

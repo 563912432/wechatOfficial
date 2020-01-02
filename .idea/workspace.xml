@@ -1,7 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="10618fe3-0cfc-4775-9733-a6865d408b4a" name="Default Changelist" comment="" />
+    <list default="true" id="10618fe3-0cfc-4775-9733-a6865d408b4a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/agent/model/AgentAttachment.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/agent/controller/Ajax.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/agent/controller/Ajax.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/agent/view/common/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/application/agent/view/common/header.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/agent/view/common/menu.html" beforeDir="false" afterPath="$PROJECT_DIR$/application/agent/view/common/menu.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/agent/view/dashboard/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/application/agent/view/dashboard/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/agent/view/general/profile/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/application/agent/view/general/profile/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/common/controller/BackendAgent.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/common/controller/BackendAgent.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/20200102/fab91e54ba0a5233f107bf0d6c11b942.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/runtime/log/202001/02.log" beforeDir="false" afterPath="$PROJECT_DIR$/runtime/log/202001/02.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/runtime/temp/0db3e976e89a1b5a143e0000b00b2263.php" beforeDir="false" afterPath="$PROJECT_DIR$/runtime/temp/0db3e976e89a1b5a143e0000b00b2263.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/runtime/temp/46b3517e0b49086cec069ee3f3b7b200.php" beforeDir="false" afterPath="$PROJECT_DIR$/runtime/temp/46b3517e0b49086cec069ee3f3b7b200.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/runtime/temp/bd17c40ee3a974d39540395b167b48c9.php" beforeDir="false" afterPath="$PROJECT_DIR$/runtime/temp/bd17c40ee3a974d39540395b167b48c9.php" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -12,7 +27,17 @@
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/application/agent/view/common/menu.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="234">
+              <caret line="24" column="14" lean-forward="true" selection-start-line="24" selection-start-column="14" selection-end-line="24" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -38,6 +63,9 @@
       <find>getByName</find>
       <find>fastadmin</find>
       <find>resetConfig</find>
+      <find>git push -u origin master</find>
+      <find>attachment</find>
+      <find>agent</find>
     </findStrings>
     <replaceStrings>
       <replace>AgentLog</replace>
@@ -45,10 +73,12 @@
       <replace>agent</replace>
     </replaceStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/application/agent/model/Admin.php" />
         <option value="$PROJECT_DIR$/application/agent/model/AuthGroup.php" />
         <option value="$PROJECT_DIR$/application/agent/model/AuthGroupAccess.php" />
         <option value="$PROJECT_DIR$/application/agent/command/Addon.php" />
@@ -73,15 +103,11 @@
         <option value="$PROJECT_DIR$/application/agent/view/index/login.html" />
         <option value="$PROJECT_DIR$/application/agent/library/Auth.php" />
         <option value="$PROJECT_DIR$/application/agent/model/AgentLog.php" />
-        <option value="$PROJECT_DIR$/application/agent/view/common/header.html" />
-        <option value="$PROJECT_DIR$/application/agent/view/common/menu.html" />
         <option value="$PROJECT_DIR$/application/agent/controller/Dashboard.php" />
         <option value="$PROJECT_DIR$/application/agent/controller/general/Attachment.php" />
         <option value="$PROJECT_DIR$/application/agent/controller/general/Profile.php" />
-        <option value="$PROJECT_DIR$/application/agent/view/general/profile/index.html" />
         <option value="$PROJECT_DIR$/application/agent/controller/Category.php" />
         <option value="$PROJECT_DIR$/application/agent/controller/Addon.php" />
-        <option value="$PROJECT_DIR$/application/agent/controller/Ajax.php" />
         <option value="$PROJECT_DIR$/application/agent/controller/auth/Group.php" />
         <option value="$PROJECT_DIR$/application/agent/controller/auth/Rule.php" />
         <option value="$PROJECT_DIR$/application/agent/controller/user/Group.php" />
@@ -93,12 +119,17 @@
         <option value="$PROJECT_DIR$/public/assets/js/backend/auth/group.js" />
         <option value="$PROJECT_DIR$/public/assets/js/backend/auth/agentlog.js" />
         <option value="$PROJECT_DIR$/public/assets/js/backend/auth/agent.js" />
-        <option value="$PROJECT_DIR$/application/agent/view/dashboard/index.html" />
         <option value="$PROJECT_DIR$/application/extra/site.php" />
-        <option value="$PROJECT_DIR$/application/common/controller/BackendAgent.php" />
         <option value="$PROJECT_DIR$/application/agent/model/AgentConfig.php" />
         <option value="$PROJECT_DIR$/application/agent/controller/general/Config.php" />
         <option value="$PROJECT_DIR$/application/agent/controller/Index.php" />
+        <option value="$PROJECT_DIR$/application/agent/view/common/header.html" />
+        <option value="$PROJECT_DIR$/application/agent/view/dashboard/index.html" />
+        <option value="$PROJECT_DIR$/application/agent/view/common/menu.html" />
+        <option value="$PROJECT_DIR$/application/agent/model/AgentAttachment.php" />
+        <option value="$PROJECT_DIR$/application/agent/controller/Ajax.php" />
+        <option value="$PROJECT_DIR$/application/agent/view/general/profile/index.html" />
+        <option value="$PROJECT_DIR$/application/common/controller/BackendAgent.php" />
       </list>
     </option>
   </component>
@@ -141,6 +172,7 @@
     <option name="width" value="1930" />
     <option name="height" value="1047" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -153,6 +185,47 @@
               <item name="wechatOfficial" type="b2602c69:ProjectViewProjectNode" />
               <item name="wechatOfficial" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="wechatOfficial" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wechatOfficial" type="462c0819:PsiDirectoryNode" />
+              <item name="application" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wechatOfficial" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wechatOfficial" type="462c0819:PsiDirectoryNode" />
+              <item name="application" type="462c0819:PsiDirectoryNode" />
+              <item name="agent" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wechatOfficial" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wechatOfficial" type="462c0819:PsiDirectoryNode" />
+              <item name="application" type="462c0819:PsiDirectoryNode" />
+              <item name="agent" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wechatOfficial" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wechatOfficial" type="462c0819:PsiDirectoryNode" />
+              <item name="application" type="462c0819:PsiDirectoryNode" />
+              <item name="agent" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+              <item name="general" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wechatOfficial" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wechatOfficial" type="462c0819:PsiDirectoryNode" />
+              <item name="application" type="462c0819:PsiDirectoryNode" />
+              <item name="agent" type="462c0819:PsiDirectoryNode" />
+              <item name="view" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wechatOfficial" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wechatOfficial" type="462c0819:PsiDirectoryNode" />
+              <item name="application" type="462c0819:PsiDirectoryNode" />
+              <item name="agent" type="462c0819:PsiDirectoryNode" />
+              <item name="view" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -161,6 +234,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/application/agent/model" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -200,17 +274,18 @@
       <workItem from="1577857639848" duration="6000000" />
       <workItem from="1577865195155" duration="1933000" />
       <workItem from="1577924878112" duration="10496000" />
-      <workItem from="1577952100942" duration="5435000" />
+      <workItem from="1577952100942" duration="9017000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23864000" />
+    <option name="totallyTimeSpent" value="27446000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22961374" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20439914" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -223,7 +298,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.77" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -235,68 +310,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/thinkphp/helper.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="102" column="13" selection-start-line="102" selection-start-column="13" selection-end-line="102" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/agent/controller/Dashboard.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="19" column="27" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="27" />
-          <folding>
-            <element signature="e#40#74#0#PHP" expanded="true" />
-            <element signature="e#240#1753#0#PHP" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/agent/controller/general/Attachment.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="12" column="37" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/agent/controller/general/Profile.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-936">
-          <caret line="15" column="34" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
-          <folding>
-            <element signature="e#48#74#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/agent/view/general/profile/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="92" column="110" selection-start-line="92" selection-start-column="105" selection-end-line="92" selection-end-column="110" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/agent/controller/Category.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="14" column="35" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="35" />
-          <folding>
-            <element signature="e#40#74#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/agent/controller/Ajax.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="416">
-          <caret line="16" column="31" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
-          <folding>
-            <element signature="e#40#74#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/agent/controller/auth/Rule.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="366">
@@ -406,49 +419,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/agent/view/layout/default.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="18" column="68" selection-start-line="18" selection-start-column="66" selection-end-line="18" selection-end-column="68" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/agent/view/dashboard/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="502" selection-start-line="502" selection-end-line="502" />
-          <folding>
-            <element signature="n#style#0;n#!!top" />
-            <element signature="n#div#0;n#div#1;n#!!top" />
-            <element signature="n#div#1;n#div#1;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/agent/view/common/menu.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="910">
-          <caret line="35" column="18" selection-start-line="35" selection-start-column="9" selection-end-line="35" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/agent/view/common/meta.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="364">
           <caret line="14" column="23" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/agent/view/common/control.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/agent/view/common/header.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="9" column="37" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
-          <folding>
-            <element signature="n#nav#0;n#!!top" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -610,23 +584,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/agent/model/AgentConfig.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="409">
-          <caret line="95" column="43" selection-start-line="95" selection-start-column="43" selection-end-line="95" selection-end-column="43" />
-          <folding>
-            <element signature="e#35#51#0#PHP" expanded="true" />
-            <element signature="e#429#1249#0#PHP" />
-            <element signature="e#1255#1850#0#PHP" />
-            <element signature="e#1856#2162#0#PHP" />
-            <element signature="e#2610#3392#0#PHP" />
-            <element signature="e#3481#3825#0#PHP" />
-            <element signature="e#3915#4245#0#PHP" />
-            <element signature="e#4304#4762#0#PHP" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/agent/controller/general/Config.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="708">
@@ -642,16 +599,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/common/controller/BackendAgent.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4190">
-          <caret line="545" column="38" selection-start-line="545" selection-start-column="38" selection-end-line="545" selection-end-column="38" />
-          <folding>
-            <element signature="e#41#68#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/agent/controller/Index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="444">
@@ -659,6 +606,116 @@
           <folding>
             <element signature="e#40#69#0#PHP" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/agent/view/common/header.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="80" column="22" selection-start-line="80" selection-start-column="22" selection-end-line="80" selection-end-column="22" />
+          <folding>
+            <element signature="n#style#0;n#i#0;n#a#0;n#li#0;n#ul#0;n#div#0;n#div#0;n#nav#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/agent/view/dashboard/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="203" column="53" selection-start-line="203" selection-start-column="53" selection-end-line="203" selection-end-column="53" />
+          <folding>
+            <element signature="n#style#0;n#!!top" />
+            <element signature="n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#!!top" />
+            <element signature="n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#!!top" />
+            <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#div#2;n#div#0;n#div#0;n#div#1;n#div#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/agent/view/common/control.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-826" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/common/model/Attachment.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/uploads/20200102/fab91e54ba0a5233f107bf0d6c11b942.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/uploads/20200102/c5617309e20bf258b736598990dfd88c.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/agent/model/AgentAttachment.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="214">
+          <caret line="12" column="41" lean-forward="true" selection-start-line="12" selection-start-column="41" selection-end-line="12" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/agent/model/AgentConfig.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="11" column="6" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
+          <folding>
+            <element signature="e#35#51#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/agent/view/layout/default.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="26" column="12" selection-start-line="26" selection-start-column="12" selection-end-line="26" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/agent/view/general/profile/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="229">
+          <caret line="50" column="54" selection-start-line="50" selection-start-column="54" selection-end-line="50" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/common/controller/BackendAgent.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="449">
+          <caret line="226" column="38" lean-forward="true" selection-start-line="226" selection-start-column="38" selection-end-line="226" selection-end-column="38" />
+          <folding>
+            <element signature="e#41#68#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/agent/controller/Ajax.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="444">
+          <caret line="133" column="19" selection-start-line="133" selection-start-column="19" selection-end-line="133" selection-end-column="19" />
+          <folding>
+            <element signature="e#40#79#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/agent/controller/general/Profile.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="734">
+          <caret line="77" column="27" selection-start-line="77" selection-start-column="27" selection-end-line="77" selection-end-column="27" />
+          <folding>
+            <element signature="e#48#74#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/agent/view/common/menu.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="24" column="14" lean-forward="true" selection-start-line="24" selection-start-column="14" selection-end-line="24" selection-end-column="14" />
         </state>
       </provider>
     </entry>
