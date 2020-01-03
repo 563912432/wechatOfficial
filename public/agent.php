@@ -25,7 +25,7 @@ if (!is_file(APP_PATH . 'admin/command/Install/install.lock'))
 // 加载框架引导文件
 require __DIR__ . '/../thinkphp/base.php';
 
-// 绑定到admin模块
+// 绑定到agent模块
 \think\Route::bind('agent');
 
 // 关闭路由

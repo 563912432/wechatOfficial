@@ -112,7 +112,7 @@ class BackendAgent extends Controller
     /**
      * 引入后台控制器的traits
      */
-    use \app\admin\library\traits\Backend;
+    use \app\agent\library\traits\Backend;
 
     public function _initialize()
     {

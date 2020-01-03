@@ -1,0 +1,215 @@
+[ 2020-01-03T09:55:37+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001131s ]
+[ info ] [ LOG ] INIT File
+[ 2020-01-03T09:55:37+08:00 ][ info ] [ CACHE ] INIT File
+[ 2020-01-03T09:55:37+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002329s ]
+[ 2020-01-03T09:57:09+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000191s ]
+[ info ] [ LOG ] INIT File
+[ 2020-01-03T09:57:09+08:00 ][ info ] [ CACHE ] INIT File
+[ 2020-01-03T09:57:09+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002213s ]
+[ 2020-01-03T09:57:09+08:00 ][ info ] [ DB ] INIT mysql
+[ 2020-01-03T09:57:09+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.001195s ] mysql:host=127.0.0.1;dbname=wechat_official;charset=utf8
+[ 2020-01-03T09:57:09+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'agent_book' [ RunTime:0.014490s ]
+[ 2020-01-03T09:57:09+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'we_agent_book' [ RunTime:0.000592s ]
+[ 2020-01-03T09:57:09+08:00 ][ sql ] [ SQL ] SELECT * FROM `information_schema`.`columns` WHERE TABLE_SCHEMA = 'wechat_official' AND table_name = 'we_agent_book' ORDER BY ORDINAL_POSITION [ RunTime:0.004654s ]
+[ 2020-01-03T10:05:28+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000212s ]
+[ info ] [ LOG ] INIT File
+[ 2020-01-03T10:05:28+08:00 ][ info ] [ CACHE ] INIT File
+[ 2020-01-03T10:05:28+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002147s ]
+[ 2020-01-03T10:05:28+08:00 ][ info ] [ DB ] INIT mysql
+[ 2020-01-03T10:05:28+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.001137s ] mysql:host=127.0.0.1;dbname=wechat_official;charset=utf8
+[ 2020-01-03T10:05:28+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'agent_book' [ RunTime:0.000662s ]
+[ 2020-01-03T10:05:28+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'we_agent_book' [ RunTime:0.000628s ]
+[ 2020-01-03T10:05:28+08:00 ][ sql ] [ SQL ] SELECT * FROM `information_schema`.`columns` WHERE TABLE_SCHEMA = 'wechat_official' AND table_name = 'we_agent_book' ORDER BY ORDINAL_POSITION [ RunTime:0.005078s ]
+[ 2020-01-03T10:05:28+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000141s ]
+[ info ] [ LOG ] INIT File
+[ 2020-01-03T10:05:28+08:00 ][ info ] [ CACHE ] INIT File
+[ 2020-01-03T10:05:28+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002107s ]
+[ 2020-01-03T10:05:28+08:00 ][ info ] [ DB ] INIT mysql
+[ 2020-01-03T10:05:28+08:00 ][ info ] [ LANG ] F:\phpstudy\PHPTutorial\WWW\wechatOfficial\application\admin\lang/zh-cn.php
+[ 2020-01-03T10:05:28+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.001150s ] mysql:host=127.0.0.1;dbname=wechat_official;charset=utf8
+[ 2020-01-03T10:05:28+08:00 ][ sql ] [ SQL ] SHOW COLUMNS FROM `we_auth_rule` [ RunTime:0.004401s ]
+[ 2020-01-03T10:05:28+08:00 ][ sql ] [ SQL ] SELECT * FROM `we_auth_rule` WHERE  `name` = 'agent_book' LIMIT 1 [ RunTime:0.000281s ]
+[ 2020-01-03T10:05:28+08:00 ][ sql ] [ SQL ] INSERT INTO `we_auth_rule` (`pid` , `name` , `title` , `icon` , `remark` , `ismenu` , `status` , `createtime` , `updatetime`) VALUES (0 , 'agent_book' , 'AgentBook' , 'fa fa-circle-o' , '' , 1 , 'normal' , 1578017128 , 1578017128) [ RunTime:0.034216s ]
+[ 2020-01-03T10:05:28+08:00 ][ sql ] [ SQL ] SELECT `id` FROM `we_auth_rule` WHERE  `name` = 'agent_book/index' LIMIT 1 [ RunTime:0.000346s ]
+[ 2020-01-03T10:05:28+08:00 ][ sql ] [ SQL ] SELECT `id` FROM `we_auth_rule` WHERE  `name` = 'agent_book/recyclebin' LIMIT 1 [ RunTime:0.000258s ]
+[ 2020-01-03T10:05:28+08:00 ][ sql ] [ SQL ] SELECT `id` FROM `we_auth_rule` WHERE  `name` = 'agent_book/add' LIMIT 1 [ RunTime:0.000261s ]
+[ 2020-01-03T10:05:28+08:00 ][ sql ] [ SQL ] SELECT `id` FROM `we_auth_rule` WHERE  `name` = 'agent_book/edit' LIMIT 1 [ RunTime:0.000253s ]
+[ 2020-01-03T10:05:28+08:00 ][ sql ] [ SQL ] SELECT `id` FROM `we_auth_rule` WHERE  `name` = 'agent_book/del' LIMIT 1 [ RunTime:0.000243s ]
+[ 2020-01-03T10:05:28+08:00 ][ sql ] [ SQL ] SELECT `id` FROM `we_auth_rule` WHERE  `name` = 'agent_book/destroy' LIMIT 1 [ RunTime:0.000216s ]
+[ 2020-01-03T10:05:28+08:00 ][ sql ] [ SQL ] SELECT `id` FROM `we_auth_rule` WHERE  `name` = 'agent_book/restore' LIMIT 1 [ RunTime:0.000215s ]
+[ 2020-01-03T10:05:28+08:00 ][ sql ] [ SQL ] SELECT `id` FROM `we_auth_rule` WHERE  `name` = 'agent_book/multi' LIMIT 1 [ RunTime:0.000210s ]
+[ 2020-01-03T10:05:28+08:00 ][ sql ] [ SQL ] INSERT INTO `we_auth_rule` (`id` , `pid` , `name` , `icon` , `title` , `ismenu` , `status` , `createtime` , `updatetime`) VALUES (NULL , 85 , 'agent_book/index' , 'fa fa-circle-o' , '查看' , 0 , 'normal' , 1578017128 , 1578017128) [ RunTime:0.000275s ]
+[ 2020-01-03T10:05:28+08:00 ][ sql ] [ SQL ] INSERT INTO `we_auth_rule` (`id` , `pid` , `name` , `icon` , `title` , `ismenu` , `status` , `createtime` , `updatetime`) VALUES (NULL , 85 , 'agent_book/recyclebin' , 'fa fa-circle-o' , '回收站' , 0 , 'normal' , 1578017128 , 1578017128) [ RunTime:0.000225s ]
+[ 2020-01-03T10:05:28+08:00 ][ sql ] [ SQL ] INSERT INTO `we_auth_rule` (`id` , `pid` , `name` , `icon` , `title` , `ismenu` , `status` , `createtime` , `updatetime`) VALUES (NULL , 85 , 'agent_book/add' , 'fa fa-circle-o' , '添加' , 0 , 'normal' , 1578017128 , 1578017128) [ RunTime:0.000213s ]
+[ 2020-01-03T10:05:28+08:00 ][ sql ] [ SQL ] INSERT INTO `we_auth_rule` (`id` , `pid` , `name` , `icon` , `title` , `ismenu` , `status` , `createtime` , `updatetime`) VALUES (NULL , 85 , 'agent_book/edit' , 'fa fa-circle-o' , '编辑' , 0 , 'normal' , 1578017128 , 1578017128) [ RunTime:0.000201s ]
+[ 2020-01-03T10:05:28+08:00 ][ sql ] [ SQL ] INSERT INTO `we_auth_rule` (`id` , `pid` , `name` , `icon` , `title` , `ismenu` , `status` , `createtime` , `updatetime`) VALUES (NULL , 85 , 'agent_book/del' , 'fa fa-circle-o' , '删除' , 0 , 'normal' , 1578017128 , 1578017128) [ RunTime:0.000204s ]
+[ 2020-01-03T10:05:28+08:00 ][ sql ] [ SQL ] INSERT INTO `we_auth_rule` (`id` , `pid` , `name` , `icon` , `title` , `ismenu` , `status` , `createtime` , `updatetime`) VALUES (NULL , 85 , 'agent_book/destroy' , 'fa fa-circle-o' , '真实删除' , 0 , 'normal' , 1578017128 , 1578017128) [ RunTime:0.000227s ]
+[ 2020-01-03T10:05:28+08:00 ][ sql ] [ SQL ] INSERT INTO `we_auth_rule` (`id` , `pid` , `name` , `icon` , `title` , `ismenu` , `status` , `createtime` , `updatetime`) VALUES (NULL , 85 , 'agent_book/restore' , 'fa fa-circle-o' , '还原' , 0 , 'normal' , 1578017128 , 1578017128) [ RunTime:0.000220s ]
+[ 2020-01-03T10:05:28+08:00 ][ sql ] [ SQL ] INSERT INTO `we_auth_rule` (`id` , `pid` , `name` , `icon` , `title` , `ismenu` , `status` , `createtime` , `updatetime`) VALUES (NULL , 85 , 'agent_book/multi' , 'fa fa-circle-o' , '批量更新' , 0 , 'normal' , 1578017128 , 1578017128) [ RunTime:0.000155s ]
+[ 2020-01-03T10:38:49+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000182s ]
+[ info ] [ LOG ] INIT File
+[ 2020-01-03T10:38:49+08:00 ][ info ] [ CACHE ] INIT File
+[ 2020-01-03T10:38:49+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002363s ]
+[ 2020-01-03T10:38:49+08:00 ][ info ] [ DB ] INIT mysql
+[ 2020-01-03T10:38:49+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.001018s ] mysql:host=127.0.0.1;dbname=wechat_official;charset=utf8
+[ 2020-01-03T10:38:49+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'agent_book' [ RunTime:0.000618s ]
+[ 2020-01-03T10:38:49+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'we_agent_book' [ RunTime:0.000726s ]
+[ 2020-01-03T10:45:46+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000187s ]
+[ info ] [ LOG ] INIT File
+[ 2020-01-03T10:45:46+08:00 ][ info ] [ CACHE ] INIT File
+[ 2020-01-03T10:45:46+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002200s ]
+[ 2020-01-03T10:45:46+08:00 ][ info ] [ DB ] INIT mysql
+[ 2020-01-03T10:45:46+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.001055s ] mysql:host=127.0.0.1;dbname=wechat_official;charset=utf8
+[ 2020-01-03T10:45:46+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'agent_book' [ RunTime:0.000562s ]
+[ 2020-01-03T10:45:46+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'we_agent_book' [ RunTime:0.000442s ]
+[ 2020-01-03T10:45:46+08:00 ][ sql ] [ SQL ] SELECT * FROM `information_schema`.`columns` WHERE TABLE_SCHEMA = 'wechat_official' AND table_name = 'we_agent_book' ORDER BY ORDINAL_POSITION [ RunTime:0.004947s ]
+[ 2020-01-03T10:45:46+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000129s ]
+[ info ] [ LOG ] INIT File
+[ 2020-01-03T10:45:46+08:00 ][ info ] [ CACHE ] INIT File
+[ 2020-01-03T10:45:46+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002075s ]
+[ 2020-01-03T10:45:46+08:00 ][ info ] [ DB ] INIT mysql
+[ 2020-01-03T10:55:18+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000187s ]
+[ info ] [ LOG ] INIT File
+[ 2020-01-03T10:55:18+08:00 ][ info ] [ CACHE ] INIT File
+[ 2020-01-03T10:55:18+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002180s ]
+[ 2020-01-03T10:55:18+08:00 ][ info ] [ DB ] INIT mysql
+[ 2020-01-03T10:55:18+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.001098s ] mysql:host=127.0.0.1;dbname=wechat_official;charset=utf8
+[ 2020-01-03T10:55:18+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'agent_book' [ RunTime:0.000628s ]
+[ 2020-01-03T10:55:18+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'we_agent_book' [ RunTime:0.000522s ]
+[ 2020-01-03T10:55:18+08:00 ][ sql ] [ SQL ] SELECT * FROM `information_schema`.`columns` WHERE TABLE_SCHEMA = 'wechat_official' AND table_name = 'we_agent_book' ORDER BY ORDINAL_POSITION [ RunTime:0.004166s ]
+[ 2020-01-03T10:55:18+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000128s ]
+[ info ] [ LOG ] INIT File
+[ 2020-01-03T10:55:18+08:00 ][ info ] [ CACHE ] INIT File
+[ 2020-01-03T10:55:18+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002102s ]
+[ 2020-01-03T10:55:18+08:00 ][ info ] [ DB ] INIT mysql
+[ 2020-01-03T10:55:18+08:00 ][ info ] [ LANG ] F:\phpstudy\PHPTutorial\WWW\wechatOfficial\application\admin\lang/zh-cn.php
+[ 2020-01-03T10:55:18+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.000962s ] mysql:host=127.0.0.1;dbname=wechat_official;charset=utf8
+[ 2020-01-03T10:55:18+08:00 ][ sql ] [ SQL ] SHOW COLUMNS FROM `we_auth_rule` [ RunTime:0.004626s ]
+[ 2020-01-03T10:55:18+08:00 ][ sql ] [ SQL ] SELECT * FROM `we_auth_rule` WHERE  `name` = 'agent_book' LIMIT 1 [ RunTime:0.000307s ]
+[ 2020-01-03T10:55:18+08:00 ][ sql ] [ SQL ] INSERT INTO `we_auth_rule` (`pid` , `name` , `title` , `icon` , `remark` , `ismenu` , `status` , `createtime` , `updatetime`) VALUES (0 , 'agent_book' , 'AgentBook' , 'fa fa-circle-o' , '' , 1 , 'normal' , 1578020118 , 1578020118) [ RunTime:0.042745s ]
+[ 2020-01-03T10:55:18+08:00 ][ sql ] [ SQL ] SELECT `id` FROM `we_auth_rule` WHERE  `name` = 'agent_book/index' LIMIT 1 [ RunTime:0.000216s ]
+[ 2020-01-03T10:55:18+08:00 ][ sql ] [ SQL ] SELECT `id` FROM `we_auth_rule` WHERE  `name` = 'agent_book/recyclebin' LIMIT 1 [ RunTime:0.000165s ]
+[ 2020-01-03T10:55:18+08:00 ][ sql ] [ SQL ] SELECT `id` FROM `we_auth_rule` WHERE  `name` = 'agent_book/add' LIMIT 1 [ RunTime:0.000147s ]
+[ 2020-01-03T10:55:18+08:00 ][ sql ] [ SQL ] SELECT `id` FROM `we_auth_rule` WHERE  `name` = 'agent_book/edit' LIMIT 1 [ RunTime:0.000142s ]
+[ 2020-01-03T10:55:18+08:00 ][ sql ] [ SQL ] SELECT `id` FROM `we_auth_rule` WHERE  `name` = 'agent_book/del' LIMIT 1 [ RunTime:0.000139s ]
+[ 2020-01-03T10:55:18+08:00 ][ sql ] [ SQL ] SELECT `id` FROM `we_auth_rule` WHERE  `name` = 'agent_book/destroy' LIMIT 1 [ RunTime:0.000142s ]
+[ 2020-01-03T10:55:18+08:00 ][ sql ] [ SQL ] SELECT `id` FROM `we_auth_rule` WHERE  `name` = 'agent_book/restore' LIMIT 1 [ RunTime:0.000138s ]
+[ 2020-01-03T10:55:18+08:00 ][ sql ] [ SQL ] SELECT `id` FROM `we_auth_rule` WHERE  `name` = 'agent_book/multi' LIMIT 1 [ RunTime:0.000141s ]
+[ 2020-01-03T10:55:18+08:00 ][ sql ] [ SQL ] INSERT INTO `we_auth_rule` (`id` , `pid` , `name` , `icon` , `title` , `ismenu` , `status` , `createtime` , `updatetime`) VALUES (NULL , 95 , 'agent_book/index' , 'fa fa-circle-o' , '查看' , 0 , 'normal' , 1578020118 , 1578020118) [ RunTime:0.000206s ]
+[ 2020-01-03T10:55:18+08:00 ][ sql ] [ SQL ] INSERT INTO `we_auth_rule` (`id` , `pid` , `name` , `icon` , `title` , `ismenu` , `status` , `createtime` , `updatetime`) VALUES (NULL , 95 , 'agent_book/recyclebin' , 'fa fa-circle-o' , '回收站' , 0 , 'normal' , 1578020118 , 1578020118) [ RunTime:0.000160s ]
+[ 2020-01-03T10:55:18+08:00 ][ sql ] [ SQL ] INSERT INTO `we_auth_rule` (`id` , `pid` , `name` , `icon` , `title` , `ismenu` , `status` , `createtime` , `updatetime`) VALUES (NULL , 95 , 'agent_book/add' , 'fa fa-circle-o' , '添加' , 0 , 'normal' , 1578020118 , 1578020118) [ RunTime:0.000171s ]
+[ 2020-01-03T10:55:18+08:00 ][ sql ] [ SQL ] INSERT INTO `we_auth_rule` (`id` , `pid` , `name` , `icon` , `title` , `ismenu` , `status` , `createtime` , `updatetime`) VALUES (NULL , 95 , 'agent_book/edit' , 'fa fa-circle-o' , '编辑' , 0 , 'normal' , 1578020118 , 1578020118) [ RunTime:0.000154s ]
+[ 2020-01-03T10:55:18+08:00 ][ sql ] [ SQL ] INSERT INTO `we_auth_rule` (`id` , `pid` , `name` , `icon` , `title` , `ismenu` , `status` , `createtime` , `updatetime`) VALUES (NULL , 95 , 'agent_book/del' , 'fa fa-circle-o' , '删除' , 0 , 'normal' , 1578020118 , 1578020118) [ RunTime:0.000160s ]
+[ 2020-01-03T10:55:18+08:00 ][ sql ] [ SQL ] INSERT INTO `we_auth_rule` (`id` , `pid` , `name` , `icon` , `title` , `ismenu` , `status` , `createtime` , `updatetime`) VALUES (NULL , 95 , 'agent_book/destroy' , 'fa fa-circle-o' , '真实删除' , 0 , 'normal' , 1578020118 , 1578020118) [ RunTime:0.000163s ]
+[ 2020-01-03T10:55:18+08:00 ][ sql ] [ SQL ] INSERT INTO `we_auth_rule` (`id` , `pid` , `name` , `icon` , `title` , `ismenu` , `status` , `createtime` , `updatetime`) VALUES (NULL , 95 , 'agent_book/restore' , 'fa fa-circle-o' , '还原' , 0 , 'normal' , 1578020118 , 1578020118) [ RunTime:0.000152s ]
+[ 2020-01-03T10:55:18+08:00 ][ sql ] [ SQL ] INSERT INTO `we_auth_rule` (`id` , `pid` , `name` , `icon` , `title` , `ismenu` , `status` , `createtime` , `updatetime`) VALUES (NULL , 95 , 'agent_book/multi' , 'fa fa-circle-o' , '批量更新' , 0 , 'normal' , 1578020118 , 1578020118) [ RunTime:0.000155s ]
+[ 2020-01-03T11:23:46+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000182s ]
+[ info ] [ LOG ] INIT File
+[ 2020-01-03T11:23:46+08:00 ][ info ] [ CACHE ] INIT File
+[ 2020-01-03T11:23:46+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002244s ]
+[ 2020-01-03T11:23:46+08:00 ][ info ] [ DB ] INIT mysql
+[ 2020-01-03T11:23:46+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.001043s ] mysql:host=127.0.0.1;dbname=wechat_official;charset=utf8
+[ 2020-01-03T11:23:46+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'agent_book_chapter' [ RunTime:0.000603s ]
+[ 2020-01-03T11:23:46+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'we_agent_book_chapter' [ RunTime:0.000478s ]
+[ 2020-01-03T11:23:46+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'chapter' [ RunTime:0.000422s ]
+[ 2020-01-03T11:23:46+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'we_chapter' [ RunTime:0.000419s ]
+[ 2020-01-03T11:24:09+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000189s ]
+[ info ] [ LOG ] INIT File
+[ 2020-01-03T11:24:09+08:00 ][ info ] [ CACHE ] INIT File
+[ 2020-01-03T11:24:09+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002218s ]
+[ 2020-01-03T11:24:09+08:00 ][ info ] [ DB ] INIT mysql
+[ 2020-01-03T11:24:09+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.001101s ] mysql:host=127.0.0.1;dbname=wechat_official;charset=utf8
+[ 2020-01-03T11:24:09+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'agent_book_chapter' [ RunTime:0.000679s ]
+[ 2020-01-03T11:24:09+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'we_agent_book_chapter' [ RunTime:0.000599s ]
+[ 2020-01-03T11:24:09+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'book' [ RunTime:0.000495s ]
+[ 2020-01-03T11:24:09+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'we_book' [ RunTime:0.000499s ]
+[ 2020-01-03T11:24:46+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000173s ]
+[ info ] [ LOG ] INIT File
+[ 2020-01-03T11:24:46+08:00 ][ info ] [ CACHE ] INIT File
+[ 2020-01-03T11:24:46+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002184s ]
+[ 2020-01-03T11:24:46+08:00 ][ info ] [ DB ] INIT mysql
+[ 2020-01-03T11:24:46+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.001066s ] mysql:host=127.0.0.1;dbname=wechat_official;charset=utf8
+[ 2020-01-03T11:24:46+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'agent_book_chapter' [ RunTime:0.000650s ]
+[ 2020-01-03T11:24:46+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'we_agent_book_chapter' [ RunTime:0.000587s ]
+[ 2020-01-03T11:24:46+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'agent_book' [ RunTime:0.000592s ]
+[ 2020-01-03T11:24:46+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'we_agent_book' [ RunTime:0.000592s ]
+[ 2020-01-03T11:24:46+08:00 ][ sql ] [ SQL ] SELECT * FROM `information_schema`.`columns` WHERE TABLE_SCHEMA = 'wechat_official' AND table_name = 'we_agent_book_chapter' ORDER BY ORDINAL_POSITION [ RunTime:0.004326s ]
+[ 2020-01-03T11:24:46+08:00 ][ sql ] [ SQL ] SELECT * FROM `information_schema`.`columns` WHERE TABLE_SCHEMA = 'wechat_official' AND table_name = 'we_agent_book' ORDER BY ORDINAL_POSITION [ RunTime:0.003558s ]
+[ 2020-01-03T11:24:46+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000120s ]
+[ info ] [ LOG ] INIT File
+[ 2020-01-03T11:24:46+08:00 ][ info ] [ CACHE ] INIT File
+[ 2020-01-03T11:24:46+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002155s ]
+[ 2020-01-03T11:24:46+08:00 ][ info ] [ DB ] INIT mysql
+[ 2020-01-03T11:29:45+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000194s ]
+[ info ] [ LOG ] INIT File
+[ 2020-01-03T11:29:45+08:00 ][ info ] [ CACHE ] INIT File
+[ 2020-01-03T11:29:45+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002286s ]
+[ 2020-01-03T11:29:45+08:00 ][ info ] [ DB ] INIT mysql
+[ 2020-01-03T11:30:22+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000199s ]
+[ info ] [ LOG ] INIT File
+[ 2020-01-03T11:30:22+08:00 ][ info ] [ CACHE ] INIT File
+[ 2020-01-03T11:30:22+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002197s ]
+[ 2020-01-03T11:30:22+08:00 ][ info ] [ DB ] INIT mysql
+[ 2020-01-03T11:30:36+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000209s ]
+[ info ] [ LOG ] INIT File
+[ 2020-01-03T11:30:36+08:00 ][ info ] [ CACHE ] INIT File
+[ 2020-01-03T11:30:36+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002210s ]
+[ 2020-01-03T11:30:36+08:00 ][ info ] [ DB ] INIT mysql
+[ 2020-01-03T11:31:36+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000185s ]
+[ info ] [ LOG ] INIT File
+[ 2020-01-03T11:31:36+08:00 ][ info ] [ CACHE ] INIT File
+[ 2020-01-03T11:31:36+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002304s ]
+[ 2020-01-03T11:31:36+08:00 ][ info ] [ DB ] INIT mysql
+[ 2020-01-03T11:32:05+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000172s ]
+[ info ] [ LOG ] INIT File
+[ 2020-01-03T11:32:05+08:00 ][ info ] [ CACHE ] INIT File
+[ 2020-01-03T11:32:05+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002251s ]
+[ 2020-01-03T11:32:05+08:00 ][ info ] [ DB ] INIT mysql
+[ 2020-01-03T11:34:00+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000174s ]
+[ info ] [ LOG ] INIT File
+[ 2020-01-03T11:34:00+08:00 ][ info ] [ CACHE ] INIT File
+[ 2020-01-03T11:34:00+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002184s ]
+[ 2020-01-03T11:34:00+08:00 ][ info ] [ DB ] INIT mysql
+[ 2020-01-03T11:34:27+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000179s ]
+[ info ] [ LOG ] INIT File
+[ 2020-01-03T11:34:27+08:00 ][ info ] [ CACHE ] INIT File
+[ 2020-01-03T11:34:27+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002266s ]
+[ 2020-01-03T11:34:28+08:00 ][ info ] [ DB ] INIT mysql
+[ 2020-01-03T11:34:28+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.001030s ] mysql:host=127.0.0.1;dbname=wechat_official;charset=utf8
+[ 2020-01-03T11:34:28+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'agent_book_chaper' [ RunTime:0.000627s ]
+[ 2020-01-03T11:34:28+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'we_agent_book_chaper' [ RunTime:0.000435s ]
+[ 2020-01-03T11:34:42+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000174s ]
+[ info ] [ LOG ] INIT File
+[ 2020-01-03T11:34:42+08:00 ][ info ] [ CACHE ] INIT File
+[ 2020-01-03T11:34:42+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002139s ]
+[ 2020-01-03T11:34:42+08:00 ][ info ] [ DB ] INIT mysql
+[ 2020-01-03T11:34:42+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.000972s ] mysql:host=127.0.0.1;dbname=wechat_official;charset=utf8
+[ 2020-01-03T11:34:42+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'agent_book_chapter' [ RunTime:0.000606s ]
+[ 2020-01-03T11:34:42+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'we_agent_book_chapter' [ RunTime:0.000523s ]
+[ 2020-01-03T11:34:42+08:00 ][ sql ] [ SQL ] SELECT * FROM `information_schema`.`columns` WHERE TABLE_SCHEMA = 'wechat_official' AND table_name = 'we_agent_book_chapter' ORDER BY ORDINAL_POSITION [ RunTime:0.004581s ]
+[ 2020-01-03T11:34:42+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000112s ]
+[ info ] [ LOG ] INIT File
+[ 2020-01-03T11:34:42+08:00 ][ info ] [ CACHE ] INIT File
+[ 2020-01-03T11:34:42+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002099s ]
+[ 2020-01-03T11:34:42+08:00 ][ info ] [ DB ] INIT mysql
+[ 2020-01-03T11:34:42+08:00 ][ info ] [ LANG ] F:\phpstudy\PHPTutorial\WWW\wechatOfficial\application\admin\lang/zh-cn.php
+[ 2020-01-03T11:34:42+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.000959s ] mysql:host=127.0.0.1;dbname=wechat_official;charset=utf8
+[ 2020-01-03T11:34:42+08:00 ][ sql ] [ SQL ] SHOW COLUMNS FROM `we_auth_rule` [ RunTime:0.004353s ]
+[ 2020-01-03T11:34:42+08:00 ][ sql ] [ SQL ] SELECT * FROM `we_auth_rule` WHERE  `name` = 'agent_book_chapter' LIMIT 1 [ RunTime:0.000324s ]
+[ 2020-01-03T11:34:42+08:00 ][ sql ] [ SQL ] INSERT INTO `we_auth_rule` (`pid` , `name` , `title` , `icon` , `remark` , `ismenu` , `status` , `createtime` , `updatetime`) VALUES (0 , 'agent_book_chapter' , 'AgentBookChapter' , 'fa fa-circle-o' , '' , 1 , 'normal' , 1578022482 , 1578022482) [ RunTime:0.040806s ]
+[ 2020-01-03T11:34:42+08:00 ][ sql ] [ SQL ] SELECT `id` FROM `we_auth_rule` WHERE  `name` = 'agent_book_chapter/index' LIMIT 1 [ RunTime:0.000319s ]
+[ 2020-01-03T11:34:42+08:00 ][ sql ] [ SQL ] SELECT `id` FROM `we_auth_rule` WHERE  `name` = 'agent_book_chapter/recyclebin' LIMIT 1 [ RunTime:0.000256s ]
+[ 2020-01-03T11:34:42+08:00 ][ sql ] [ SQL ] SELECT `id` FROM `we_auth_rule` WHERE  `name` = 'agent_book_chapter/add' LIMIT 1 [ RunTime:0.000263s ]
+[ 2020-01-03T11:34:42+08:00 ][ sql ] [ SQL ] SELECT `id` FROM `we_auth_rule` WHERE  `name` = 'agent_book_chapter/edit' LIMIT 1 [ RunTime:0.000239s ]
+[ 2020-01-03T11:34:42+08:00 ][ sql ] [ SQL ] SELECT `id` FROM `we_auth_rule` WHERE  `name` = 'agent_book_chapter/del' LIMIT 1 [ RunTime:0.000254s ]
+[ 2020-01-03T11:34:42+08:00 ][ sql ] [ SQL ] SELECT `id` FROM `we_auth_rule` WHERE  `name` = 'agent_book_chapter/destroy' LIMIT 1 [ RunTime:0.000253s ]
+[ 2020-01-03T11:34:42+08:00 ][ sql ] [ SQL ] SELECT `id` FROM `we_auth_rule` WHERE  `name` = 'agent_book_chapter/restore' LIMIT 1 [ RunTime:0.000214s ]
+[ 2020-01-03T11:34:42+08:00 ][ sql ] [ SQL ] SELECT `id` FROM `we_auth_rule` WHERE  `name` = 'agent_book_chapter/multi' LIMIT 1 [ RunTime:0.000212s ]
+[ 2020-01-03T11:34:42+08:00 ][ sql ] [ SQL ] INSERT INTO `we_auth_rule` (`id` , `pid` , `name` , `icon` , `title` , `ismenu` , `status` , `createtime` , `updatetime`) VALUES (NULL , 104 , 'agent_book_chapter/index' , 'fa fa-circle-o' , '查看' , 0 , 'normal' , 1578022482 , 1578022482) [ RunTime:0.000256s ]
+[ 2020-01-03T11:34:42+08:00 ][ sql ] [ SQL ] INSERT INTO `we_auth_rule` (`id` , `pid` , `name` , `icon` , `title` , `ismenu` , `status` , `createtime` , `updatetime`) VALUES (NULL , 104 , 'agent_book_chapter/recyclebin' , 'fa fa-circle-o' , '回收站' , 0 , 'normal' , 1578022482 , 1578022482) [ RunTime:0.000230s ]
+[ 2020-01-03T11:34:42+08:00 ][ sql ] [ SQL ] INSERT INTO `we_auth_rule` (`id` , `pid` , `name` , `icon` , `title` , `ismenu` , `status` , `createtime` , `updatetime`) VALUES (NULL , 104 , 'agent_book_chapter/add' , 'fa fa-circle-o' , '添加' , 0 , 'normal' , 1578022482 , 1578022482) [ RunTime:0.000196s ]
+[ 2020-01-03T11:34:42+08:00 ][ sql ] [ SQL ] INSERT INTO `we_auth_rule` (`id` , `pid` , `name` , `icon` , `title` , `ismenu` , `status` , `createtime` , `updatetime`) VALUES (NULL , 104 , 'agent_book_chapter/edit' , 'fa fa-circle-o' , '编辑' , 0 , 'normal' , 1578022482 , 1578022482) [ RunTime:0.000249s ]
+[ 2020-01-03T11:34:42+08:00 ][ sql ] [ SQL ] INSERT INTO `we_auth_rule` (`id` , `pid` , `name` , `icon` , `title` , `ismenu` , `status` , `createtime` , `updatetime`) VALUES (NULL , 104 , 'agent_book_chapter/del' , 'fa fa-circle-o' , '删除' , 0 , 'normal' , 1578022482 , 1578022482) [ RunTime:0.000211s ]
+[ 2020-01-03T11:34:42+08:00 ][ sql ] [ SQL ] INSERT INTO `we_auth_rule` (`id` , `pid` , `name` , `icon` , `title` , `ismenu` , `status` , `createtime` , `updatetime`) VALUES (NULL , 104 , 'agent_book_chapter/destroy' , 'fa fa-circle-o' , '真实删除' , 0 , 'normal' , 1578022482 , 1578022482) [ RunTime:0.000194s ]
+[ 2020-01-03T11:34:42+08:00 ][ sql ] [ SQL ] INSERT INTO `we_auth_rule` (`id` , `pid` , `name` , `icon` , `title` , `ismenu` , `status` , `createtime` , `updatetime`) VALUES (NULL , 104 , 'agent_book_chapter/restore' , 'fa fa-circle-o' , '还原' , 0 , 'normal' , 1578022482 , 1578022482) [ RunTime:0.000207s ]
+[ 2020-01-03T11:34:42+08:00 ][ sql ] [ SQL ] INSERT INTO `we_auth_rule` (`id` , `pid` , `name` , `icon` , `title` , `ismenu` , `status` , `createtime` , `updatetime`) VALUES (NULL , 104 , 'agent_book_chapter/multi' , 'fa fa-circle-o' , '批量更新' , 0 , 'normal' , 1578022482 , 1578022482) [ RunTime:0.000209s ]
