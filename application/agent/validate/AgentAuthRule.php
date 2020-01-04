@@ -4,7 +4,7 @@ namespace app\agent\validate;
 
 use think\Validate;
 
-class AuthRule extends Validate
+class AgentAuthRule extends Validate
 {
 
     /**

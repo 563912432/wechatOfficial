@@ -38,7 +38,7 @@ class Index extends BackendAgent
 //            'addon'     => ['new', 'red', 'badge'],
 //            'auth/rule' => __('Menu'),
 //            'general'   => ['new', 'purple'],
-        ], Session::get('config')['fixedpage']);
+        ], Config::get('site.fixedpage'));
         $action = $this->request->request('action');
         if ($this->request->isPost()) {
             if ($action == 'refreshmenu') {

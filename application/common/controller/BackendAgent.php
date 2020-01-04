@@ -189,7 +189,7 @@ class BackendAgent extends Controller
         $this->resetConfig();
 //        $site = Config::get("site");
         $site = Session::get("config");
-
+        $site['version'] = Config::get('site.version');
         $upload = \app\common\model\Config::upload();
 
         // 上传信息配置后

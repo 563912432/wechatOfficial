@@ -7,7 +7,7 @@ class AdminLog
     public function run(&$params)
     {
         if (request()->isPost()) {
-            \app\admin\model\AgentLog::record();
+            \app\admin\model\AdminLog::record();
         }
     }
 }

@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:6:{s:92:"F:\phpstudy\PHPTutorial\WWW\wechatOfficial\public/../application/agent\view\index\index.html";i:1576638344;s:82:"F:\phpstudy\PHPTutorial\WWW\wechatOfficial\application\agent\view\common\meta.html";i:1576638344;s:84:"F:\phpstudy\PHPTutorial\WWW\wechatOfficial\application\agent\view\common\header.html";i:1577959434;s:82:"F:\phpstudy\PHPTutorial\WWW\wechatOfficial\application\agent\view\common\menu.html";i:1577961236;s:85:"F:\phpstudy\PHPTutorial\WWW\wechatOfficial\application\agent\view\common\control.html";i:1576638344;s:84:"F:\phpstudy\PHPTutorial\WWW\wechatOfficial\application\agent\view\common\script.html";i:1578013858;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:6:{s:92:"F:\phpstudy\PHPTutorial\WWW\wechatOfficial\public/../application/agent\view\index\index.html";i:1576638344;s:82:"F:\phpstudy\PHPTutorial\WWW\wechatOfficial\application\agent\view\common\meta.html";i:1576638344;s:84:"F:\phpstudy\PHPTutorial\WWW\wechatOfficial\application\agent\view\common\header.html";i:1577959434;s:82:"F:\phpstudy\PHPTutorial\WWW\wechatOfficial\application\agent\view\common\menu.html";i:1577961236;s:85:"F:\phpstudy\PHPTutorial\WWW\wechatOfficial\application\agent\view\common\control.html";i:1576638344;s:84:"F:\phpstudy\PHPTutorial\WWW\wechatOfficial\application\agent\view\common\script.html";i:1578102363;}*/ ?>
 <!DOCTYPE html>
 <html lang="<?php echo $config['language']; ?>">
     <head>
@@ -299,7 +299,7 @@
         </div>
 
         <!-- 加载JS脚本 -->
-        <script src="/assets/js/require<?php echo \think\Config::get('app_debug')?'':'.min'; ?>.js" data-main="/assets/js/require-backend<?php echo \think\Config::get('app_debug')?'':'.min'; ?>.js"></script>
+        <script src="/assets/js/require<?php echo \think\Config::get('app_debug')?'':'.min'; ?>.js" data-main="/assets/js/require-backend<?php echo \think\Config::get('app_debug')?'':'.min'; ?>.js?v=<?php echo htmlentities($site['version']); ?>"></script>
 
     </body>
 </html>

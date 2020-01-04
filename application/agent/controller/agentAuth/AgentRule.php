@@ -2,7 +2,7 @@
 
 namespace app\agent\controller\auth;
 
-use app\agent\model\AuthRule;
+use app\agent\model\AgentAuthRule as AuthRuleModel;
 use app\common\controller\BackendAgent;
 use fast\Tree;
 use think\Cache;
@@ -13,11 +13,11 @@ use think\Cache;
  * @icon fa fa-list
  * @remark 规则通常对应一个控制器的方法,同时左侧的菜单栏数据也从规则中体现,通常建议通过控制台进行生成规则节点
  */
-class Rule extends BackendAgent
+class AgentRule extends BackendAgent
 {
 
     /**
-     * @var \app\agent\model\AuthRule
+     * @var \app\agent\model\AgentAuthRule
      */
     protected $model = null;
     protected $rulelist = [];
@@ -29,7 +29,7 @@ class Rule extends BackendAgent
         if (!$this->auth->isSuperAdmin()){
             $this->error(__('Access is allowed only to the super management group'));
         }
-        $this->model = model('AuthRule');
+        $this->model = new AuthRuleModel();
         // 必须将结果集转换为数组
         $ruleList = collection($this->model->order('weigh', 'desc')->order('id', 'asc')->select())->toArray();
         foreach ($ruleList as $k => &$v) {
@@ -113,9 +113,9 @@ class Rule extends BackendAgent
                     }
                 }
                 //这里需要针对name做唯一验证
-                $ruleValidate = \think\Loader::validate('AuthRule');
+                $ruleValidate = \think\Loader::validate('Agent/AgentAuthRule');
                 $ruleValidate->rule([
-                    'name' => 'require|format|unique:AuthRule,name,' . $row->id,
+                    'name' => 'require|format|unique:AgentAuthRule,name,' . $row->id,
                 ]);
                 $result = $row->validate()->save($params);
                 if ($result === false) {

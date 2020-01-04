@@ -5,9 +5,11 @@ namespace app\agent\model;
 use think\Cache;
 use think\Model;
 
-class AuthRule extends Model
+class AgentAuthRule extends Model
 {
 
+    // 表名
+    protected $name = 'agent_auth_rule';
     // 开启自动写入时间戳字段
     protected $autoWriteTimestamp = 'int';
     // 定义时间戳字段名

@@ -15,7 +15,7 @@ class Adminlog extends Backend
 {
 
     /**
-     * @var \app\admin\model\AgentLog
+     * @var \app\admin\model\AdminLog
      */
     protected $model = null;
     protected $childrenGroupIds = [];

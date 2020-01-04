@@ -31,7 +31,7 @@ class Group extends BackendAgent
     public function _initialize()
     {
         parent::_initialize();
-        $this->model = model('AuthGroup');
+        $this->model = model('agent/AuthGroup');
 
         $this->childrenGroupIds = $this->auth->getChildrenGroupIds(true);
 

@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:4:{s:95:"F:\phpstudy\PHPTutorial\WWW\wechatOfficial\public/../application/agent\view\category\index.html";i:1576638344;s:85:"F:\phpstudy\PHPTutorial\WWW\wechatOfficial\application\agent\view\layout\default.html";i:1577865801;s:82:"F:\phpstudy\PHPTutorial\WWW\wechatOfficial\application\agent\view\common\meta.html";i:1576638344;s:84:"F:\phpstudy\PHPTutorial\WWW\wechatOfficial\application\agent\view\common\script.html";i:1578013858;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:4:{s:96:"F:\phpstudy\PHPTutorial\WWW\wechatOfficial\public/../application/agent\view\auth\rule\index.html";i:1576638344;s:85:"F:\phpstudy\PHPTutorial\WWW\wechatOfficial\application\agent\view\layout\default.html";i:1577865801;s:82:"F:\phpstudy\PHPTutorial\WWW\wechatOfficial\application\agent\view\common\meta.html";i:1576638344;s:84:"F:\phpstudy\PHPTutorial\WWW\wechatOfficial\application\agent\view\common\script.html";i:1578102363;}*/ ?>
 <!DOCTYPE html>
 <html lang="<?php echo $config['language']; ?>">
     <head>
@@ -50,34 +50,33 @@
                             <!-- END RIBBON -->
                             <?php endif; ?>
                             <div class="content">
-                                <div class="panel panel-default panel-intro">
-    <div class="panel-heading">
-        <?php echo build_heading(null,FALSE); ?>
-        <ul class="nav nav-tabs">
-            <li class="active"><a href="#all" data-toggle="tab"><?php echo __('All'); ?></a></li>
-            <?php if(is_array($typeList) || $typeList instanceof \think\Collection || $typeList instanceof \think\Paginator): if( count($typeList)==0 ) : echo "" ;else: foreach($typeList as $key=>$vo): ?>
-                <li><a href="#<?php echo $key; ?>" data-toggle="tab"><?php echo $vo; ?></a></li>
-            <?php endforeach; endif; else: echo "" ;endif; ?>
-        </ul>
+                                <style>
+    .bootstrap-table tr td .text-muted {color:#888;}
+</style>
+<div class="panel panel-default panel-intro">
+    <?php echo build_heading(); ?>
 
-    </div>
     <div class="panel-body">
         <div id="myTabContent" class="tab-content">
             <div class="tab-pane fade active in" id="one">
                 <div class="widget-body no-padding">
                     <div id="toolbar" class="toolbar">
-                        <?php echo build_toolbar('refresh,add,edit,del'); ?>
-                        <div class="dropdown btn-group <?php echo $auth->check('category/multi')?'':'hide'; ?>">
+                        <a href="javascript:;" class="btn btn-primary btn-refresh" title="<?php echo __('Refresh'); ?>" ><i class="fa fa-refresh"></i> </a>
+                        <a href="javascript:;" class="btn btn-success btn-add <?php echo $auth->check('auth/rule/add')?'':'hide'; ?>" title="<?php echo __('Add'); ?>" ><i class="fa fa-plus"></i> <?php echo __('Add'); ?></a>
+                        <a href="javascript:;" class="btn btn-success btn-edit btn-disabled disabled <?php echo $auth->check('auth/rule/edit')?'':'hide'; ?>" title="<?php echo __('Edit'); ?>" ><i class="fa fa-pencil"></i> <?php echo __('Edit'); ?></a>
+                        <a href="javascript:;" class="btn btn-danger btn-del btn-disabled disabled <?php echo $auth->check('auth/rule/del')?'':'hide'; ?>" title="<?php echo __('Delete'); ?>" ><i class="fa fa-trash"></i> <?php echo __('Delete'); ?></a>
+                        <div class="dropdown btn-group <?php echo $auth->check('auth/rule/multi')?'':'hide'; ?>">
                             <a class="btn btn-primary btn-more dropdown-toggle btn-disabled disabled" data-toggle="dropdown"><i class="fa fa-cog"></i> <?php echo __('More'); ?></a>
                             <ul class="dropdown-menu text-left" role="menu">
                                 <li><a class="btn btn-link btn-multi btn-disabled disabled" href="javascript:;" data-params="status=normal"><i class="fa fa-eye"></i> <?php echo __('Set to normal'); ?></a></li>
                                 <li><a class="btn btn-link btn-multi btn-disabled disabled" href="javascript:;" data-params="status=hidden"><i class="fa fa-eye-slash"></i> <?php echo __('Set to hidden'); ?></a></li>
                             </ul>
                         </div>
+                        <a href="javascript:;" class="btn btn-danger btn-toggle-all"><i class="fa fa-plus"></i> <?php echo __('Toggle all'); ?></a>
                     </div>
-                    <table id="table" class="table table-striped table-bordered table-hover" 
-                           data-operate-edit="<?php echo $auth->check('category/edit'); ?>" 
-                           data-operate-del="<?php echo $auth->check('category/del'); ?>" 
+                    <table id="table" class="table table-bordered table-hover" 
+                           data-operate-edit="<?php echo $auth->check('auth/rule/edit'); ?>" 
+                           data-operate-del="<?php echo $auth->check('auth/rule/del'); ?>" 
                            width="100%">
                     </table>
                 </div>
@@ -93,7 +92,7 @@
                 </div>
             </div>
         </div>
-        <script src="/assets/js/require<?php echo \think\Config::get('app_debug')?'':'.min'; ?>.js" data-main="/assets/js/require-backend<?php echo \think\Config::get('app_debug')?'':'.min'; ?>.js"></script>
+        <script src="/assets/js/require<?php echo \think\Config::get('app_debug')?'':'.min'; ?>.js" data-main="/assets/js/require-backend<?php echo \think\Config::get('app_debug')?'':'.min'; ?>.js?v=<?php echo htmlentities($site['version']); ?>"></script>
 
     </body>
 </html>

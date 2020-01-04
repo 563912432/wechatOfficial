@@ -2,7 +2,7 @@
 
 namespace app\agent\command;
 
-use app\agent\model\AuthRule;
+use app\agent\model\AgentAuthRule;
 use ReflectionClass;
 use ReflectionMethod;
 use think\Cache;
@@ -32,7 +32,7 @@ class Menu extends Command
 
     protected function execute(Input $input, Output $output)
     {
-        $this->model = new AuthRule();
+        $this->model = new AgentAuthRule();
         $adminPath = dirname(__DIR__) . DS;
         //控制器名
         $controller = $input->getOption('controller') ?: '';
@@ -86,7 +86,7 @@ class Menu extends Command
                     throw new Exception("Operation is aborted!");
                 }
             }
-            AuthRule::destroy($ids);
+            AgentAuthRule::destroy($ids);
 
             Cache::rm("__menu__");
             $output->info("Delete Successed");
@@ -114,7 +114,7 @@ class Menu extends Command
                 $this->importRule($item);
             }
         } else {
-            $authRuleList = AuthRule::select();
+            $authRuleList = AgentAuthRule::select();
             //生成权限规则备份文件
             file_put_contents(RUNTIME_PATH . 'authrule.json', json_encode(collection($authRuleList)->toArray()));
 

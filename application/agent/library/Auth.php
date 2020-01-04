@@ -108,7 +108,7 @@ class Auth extends \fast\Auth
             if ($admin->loginip != $ip) {
                 return false;
             }
-            Session::set("admin", $admin->toArray());
+            Session::set("agent", $admin->toArray());
             //刷新自动登录的时效
             $this->keeplogin($keeptime);
             return true;
@@ -282,7 +282,7 @@ class Auth extends \fast\Auth
             }
         }
         // 取出所有分组
-        $groupList = \app\admin\model\AuthGroup::where(['status' => 'normal'])->select();
+        $groupList = \app\agent\model\AuthGroup::where(['status' => 'normal'])->select();
         $objList = [];
         foreach ($groups as $k => $v) {
             if ($v['rules'] === '*') {
@@ -314,7 +314,7 @@ class Auth extends \fast\Auth
         $childrenAdminIds = [];
         if (!$this->isSuperAdmin()) {
             $groupIds = $this->getChildrenGroupIds(false);
-            $authGroupList = \app\admin\model\AuthGroupAccess::
+            $authGroupList = \app\agent\model\AuthGroupAccess::
             field('uid,group_id')
                 ->where('group_id', 'in', $groupIds)
                 ->select();
@@ -378,7 +378,7 @@ class Auth extends \fast\Auth
     public function getSidebar($params = [], $fixedPage = 'dashboard')
     {
         // 边栏开始
-        Hook::listen("admin_sidebar_begin", $params);
+        Hook::listen("agent_sidebar_begin", $params);
         $colorArr = ['red', 'green', 'yellow', 'blue', 'teal', 'orange', 'purple'];
         $colorNums = count($colorArr);
         $badgeList = [];
@@ -407,12 +407,12 @@ class Auth extends \fast\Auth
         $refererUrl = Session::get('referer');
         $pinyin = new \Overtrue\Pinyin\Pinyin('Overtrue\Pinyin\MemoryFileDictLoader');
         // 必须将结果集转换为数组
-        $ruleList = collection(\app\agent\model\AuthRule::where('status', 'normal')
+        $ruleList = collection(\app\agent\model\AgentAuthRule::where('status', 'normal')
             ->where('ismenu', 1)
             ->order('weigh', 'desc')
             ->cache("__menu__")
             ->select())->toArray();
-        $indexRuleList = \app\agent\model\AuthRule::where('status', 'normal')
+        $indexRuleList = \app\agent\model\AgentAuthRule::where('status', 'normal')
             ->where('ismenu', 0)
             ->where('name', 'like', '%/index')
             ->column('name,pid');

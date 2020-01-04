@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:4:{s:102:"F:\phpstudy\PHPTutorial\WWW\wechatOfficial\public/../application/agent\view\agent_book\book\index.html";i:1578055311;s:85:"F:\phpstudy\PHPTutorial\WWW\wechatOfficial\application\agent\view\layout\default.html";i:1577865801;s:82:"F:\phpstudy\PHPTutorial\WWW\wechatOfficial\application\agent\view\common\meta.html";i:1576638344;s:84:"F:\phpstudy\PHPTutorial\WWW\wechatOfficial\application\agent\view\common\script.html";i:1578013858;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:4:{s:102:"F:\phpstudy\PHPTutorial\WWW\wechatOfficial\public/../application/agent\view\agent_book\book\index.html";i:1578055311;s:85:"F:\phpstudy\PHPTutorial\WWW\wechatOfficial\application\agent\view\layout\default.html";i:1577865801;s:82:"F:\phpstudy\PHPTutorial\WWW\wechatOfficial\application\agent\view\common\meta.html";i:1576638344;s:84:"F:\phpstudy\PHPTutorial\WWW\wechatOfficial\application\agent\view\common\script.html";i:1578102363;}*/ ?>
 <!DOCTYPE html>
 <html lang="<?php echo $config['language']; ?>">
     <head>
@@ -92,7 +92,7 @@
                 </div>
             </div>
         </div>
-        <script src="/assets/js/require<?php echo \think\Config::get('app_debug')?'':'.min'; ?>.js" data-main="/assets/js/require-backend<?php echo \think\Config::get('app_debug')?'':'.min'; ?>.js"></script>
+        <script src="/assets/js/require<?php echo \think\Config::get('app_debug')?'':'.min'; ?>.js" data-main="/assets/js/require-backend<?php echo \think\Config::get('app_debug')?'':'.min'; ?>.js?v=<?php echo htmlentities($site['version']); ?>"></script>
 
     </body>
 </html>

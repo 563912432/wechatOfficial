@@ -2,7 +2,7 @@
 
 namespace app\admin\controller;
 
-use app\admin\model\AgentLog;
+use app\admin\model\AdminLog;
 use app\common\controller\Backend;
 use think\Config;
 use think\Hook;
@@ -85,7 +85,7 @@ class Index extends Backend
             if (!$result) {
                 $this->error($validate->getError(), $url, ['token' => $this->request->token()]);
             }
-            AgentLog::setTitle(__('Login'));
+          AdminLog::setTitle(__('Login'));
             $result = $this->auth->login($username, $password, $keeplogin ? 86400 : 0);
             if ($result === true) {
                 Hook::listen("admin_login_after", $this->request);

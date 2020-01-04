@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:4:{s:96:"F:\phpstudy\PHPTutorial\WWW\wechatOfficial\public/../application/agent\view\dashboard\index.html";i:1577959608;s:85:"F:\phpstudy\PHPTutorial\WWW\wechatOfficial\application\agent\view\layout\default.html";i:1577865801;s:82:"F:\phpstudy\PHPTutorial\WWW\wechatOfficial\application\agent\view\common\meta.html";i:1576638344;s:84:"F:\phpstudy\PHPTutorial\WWW\wechatOfficial\application\agent\view\common\script.html";i:1578013858;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:4:{s:96:"F:\phpstudy\PHPTutorial\WWW\wechatOfficial\public/../application/agent\view\dashboard\index.html";i:1577959608;s:85:"F:\phpstudy\PHPTutorial\WWW\wechatOfficial\application\agent\view\layout\default.html";i:1577865801;s:82:"F:\phpstudy\PHPTutorial\WWW\wechatOfficial\application\agent\view\common\meta.html";i:1576638344;s:84:"F:\phpstudy\PHPTutorial\WWW\wechatOfficial\application\agent\view\common\script.html";i:1578102363;}*/ ?>
 <!DOCTYPE html>
 <html lang="<?php echo $config['language']; ?>">
     <head>
@@ -429,7 +429,7 @@
                             </div>
                             <div class="box-body">
                                 <ul class="products-list product-list-in-box">
-                                    <?php $__FOR_START_1201518890__=1;$__FOR_END_1201518890__=8;for($i=$__FOR_START_1201518890__;$i < $__FOR_END_1201518890__;$i+=1){ ?>
+                                    <?php $__FOR_START_99155821__=1;$__FOR_END_99155821__=8;for($i=$__FOR_START_99155821__;$i < $__FOR_END_99155821__;$i+=1){ ?>
                                     <li class="item">
                                         <div class="product-img">
                                             <img src="/assets/img/avatar.png" style="height:40px;width:40px;">
@@ -559,7 +559,7 @@
                 </div>
             </div>
         </div>
-        <script src="/assets/js/require<?php echo \think\Config::get('app_debug')?'':'.min'; ?>.js" data-main="/assets/js/require-backend<?php echo \think\Config::get('app_debug')?'':'.min'; ?>.js"></script>
+        <script src="/assets/js/require<?php echo \think\Config::get('app_debug')?'':'.min'; ?>.js" data-main="/assets/js/require-backend<?php echo \think\Config::get('app_debug')?'':'.min'; ?>.js?v=<?php echo htmlentities($site['version']); ?>"></script>
 
     </body>
 </html>
